@@ -56,7 +56,9 @@ Possible further steps
 
 I think for the time being, I should focus on S/MIME.  PGP seems to be a dead
 end in email encryption.  Besides, I did not succeed in decrypting them with
-GnuPG.  This may be due to malformed mails, though.
+GnuPG.  This may be due to malformed mails, though.  A possible remedy may be
+the script ``gpg_butler.py``, used by ``decrypt_directory.py``, both on my
+private desktop.
 
 One could detect S/MIME-encrypted mails, send the encrypted part though
 OpenSSL, and insert the resulting MIME part into the original message.
