@@ -7,7 +7,7 @@ Current status
 The program is able to crawl through all mails, and remember which mails have
 already been visited in the last run.
 
-There is a stash that collects encrypted mails and writes them to files.
+There is a branch that collects encrypted mails and writes them to files.
 
 
 Recommended test bed
